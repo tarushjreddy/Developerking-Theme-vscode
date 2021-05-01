@@ -1,0 +1,30 @@
+{
+    "name": "DeveloperKing-theme",
+    "displayName": "DeveloperKing-theme",
+    "description": "This is theme is developed by Tarush J. Reddy(Developer King). Contact: github.com/tarushjreddy for more softwares",
+    "version": "0.0.1",
+     "author": {
+       "name": "Tarush J. Reddy"
+    },
+    "publisher": "tarush",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "developerking",
+        "developer king theme",
+        "tarushjreddy theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DeveloperKing-Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DeveloperKing-Theme-color-theme.json"
+            }
+        ]
+    }
+}
